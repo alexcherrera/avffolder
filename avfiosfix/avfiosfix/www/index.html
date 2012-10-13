@@ -1,0 +1,173 @@
+<!--
+ Alexander Herrera
+ AVF 1209
+ Launch page HTML
+ -->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!--Meta Tags-->
+		<meta charset ="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="cleartype" content="on">
+			<!--Page Title-->
+			<title>Launch Page</title>
+			<!--Link CSS Style Sheet-->
+			<link rel="stylesheet" type="text/css" href="css/index.css"/>
+			<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+			<!--Modernizr-->
+			<script src="js/libs/modernizr.custom.min.js"></script>
+			</head>
+	<body id="bodyApp">
+	<!--AVF Demo App Section-->
+        <div class="demoAppCont">
+			<div class="conHeader">
+				<h1 id="demoHead">CRUD App</h1>
+			</div>
+            <div class="sectContent">
+                <div class="junlinkPic">
+					<a href="formindex.html" id="appLink">
+						<img src="images/June.png" id="picJun"/>
+					</a>
+					<p class="appText" id="orgApTxt">Original app</p>
+				</div>
+			</div>
+        </div>
+	<!--IOS/Android Native Feature Demos Section-->
+		<div class="appFeatureCont">
+			<div class="conHeader">
+				<h1 id="appFeatureHead">IOS/Android Native Feature Demos</h1>
+			</div>
+            <div class="sectContent">
+                <div class="apiSec1">
+					<ul id="row1Features">
+					<!--Seperating the features into rows and later editing with css. There should be 3 icons in the first column (2 icons in the first and second row)-->
+						<li>
+							<a href="geoLink.html" id="geoLink"><img src="images/geoLink.png" id="picGeo"/></a>
+							<p id="geolocalText">Geolocation</p>
+						</li>
+						<li>
+							<a href="compassLink.html" id="compassLink">
+								<img src="images/compass.png" id="picCont"/>
+							</a>
+							<p id="contactsText">Contacts</p>
+						</li>
+						<li>
+							<a href="contLink.html" id="contLink">
+								<img src="images/contacts.png" id="picCont"/>
+							</a>
+							<p id="contactsText">Contacts</p>
+						</li>
+						<li>
+							<a href="notifLink.html" id="notifLink">
+								<img src="images/Notification.png" id="picNotif"/>
+							</a>
+							<p id="notifText">Notifications</p>
+						</li>
+					</ul>
+				</div>
+				<div class="apiSec2">
+					<ul id="row2Features">
+						<!--Seperating the features into rows and later editing with css. There should be 1 icons in the last row-->
+						<li>
+							<a href="camLink.html" id="camLink">
+								<img src="images/camera.png" id="picCam"/></a>
+							<p id="cameraText">Camera</p>
+						</li>
+						<li>
+							<a href="storLink.html" id="storeLink">
+								<img src="images/Storage.png" id="picStor"/>
+							</a>
+							<p id="storageText">Storage</p>
+						</li>
+					</ul>
+				</div>
+        	</div>
+        </div>
+    <!--JSON-P Data API's Section-->
+		<div class="dataAPICont">
+			<div class="conHeader">
+				<h1 id="dataAPIHead">JSON-P Data API's</h1>
+			</div>
+            <div class="sectContent">
+                <div class="apiSec1">
+                	<ul id="row1API">
+					<!--Facebook API-->
+						<li>
+							<a href="facebookLink.html" id="facebkLink">
+								<img src="images/Facebook.png" id="picFacebk"/>
+							</a>
+								<p id="facebkText">Facebook</p>
+						</li>
+					</ul>
+				</div>
+				<div class="apiSec2">
+					<ul id="row1API">
+					<!--Twitter API-->
+						<li>
+							<a href="twitterLink.html">
+								<img src="images/Twitter.png" id="picTwi"/>
+							</a>
+							<p id="twiText">Twitter</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+    <!--Research Section-->
+    	<div class="researchCont">
+			<div class="conHeader">
+				<h1 id="researchHead">Research</h1>
+			</div>
+            <div class="sectContent">
+                <div class="apiSec1">
+                	<ul id="researchLi">
+					<!--Week One Section-->
+						<li>
+							<a href="weekOne.html" id="wkOneTxt">Week One: Industry Research and Project Intent</a>
+						</li>
+						<br/>
+					<!--Week Two Section-->
+						<li>
+							<a href="weekTwo.html" id="wkTwoTxt">Week Two: Research</a>
+						</li>
+						<br/>
+					<!--Week Three Section-->
+						<li>
+							<a href="weekThree.html" id="wkThreeTxt">Week Three: Research</a>
+						</li>
+					</ul>
+				</div> 
+			</div>
+		</div>
+	<!--Developer Info Section-->
+		<div class="developerCont">
+			<div class="conHeader">
+				<h1 id="developerHead">Developer Info</h1>
+			</div>
+            <div class="sectContent">
+                <div class="infoSec">
+                	<ul id="infoUl">
+					<!--My Information-->
+						<li id="deveTxt">Alexander Herrera</li>
+						<br/>
+						<li id="courseTxt">AVF 1209</li>
+						<br/>
+						<li>
+							<a href="videLink.html" id="videLink">
+								<img src="images/Video.png" id="picVide"/>
+							</a>
+							<p id="videosText">Videos</p>
+						</li>
+					</ul>
+				</div> 
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery_full.js"></script>
+        <script type="text/javascript" src="js/cordova-2.1.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/api_Library.js"></script>
+        <script type="text/javascript" src="js/launchmain.js"></script>
+        
+    </body>
+</html>

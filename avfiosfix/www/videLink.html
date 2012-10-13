@@ -1,0 +1,36 @@
+<!--
+	Alexander Herrera
+	AVF 1209
+	Video/Media API page HTML
+	Not using any jQuery or JQM
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<!--Meta Tags-->
+		<meta charset ="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="cleartype" content="on">
+	<!--Page Title-->
+		<title>Video Page</title>	
+	<!--Link CSS Style Sheet-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<!--Modernizr-->
+		<script src="js/libs/modernizr.custom.min.js"></script>
+	</head>
+	<body id="videoMedia">
+		<div id="weekOneVid">
+			<video id="videoReflec1" src="video/Reflection_AVF.mp4" width="640" height="360" controls>
+			</video>
+			<div id="controls" class="hidden">
+				<a id="playPause" title="play">Play</a>
+				<span id="timer">00:00</span>
+				<a id="muteUnmute">Mute/Unmute</a>
+			</div>
+
+		</div>
+		<!--JavaScript & JQuery-->
+		<script type="text/javascript" src="js/jquery_full.js"></script>
+		<script src="js/launchmain.js"></script>
+	</body>
+</html>
